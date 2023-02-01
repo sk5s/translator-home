@@ -1,0 +1,7 @@
+{
+  "name": "translator-home",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
