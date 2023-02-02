@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'translator-home',
+  appId: 'cyou.sk5s.app.translatorHome',
+  appName: 'TranslatorHome',
   webDir: 'build',
   bundledWebRuntime: false
 };

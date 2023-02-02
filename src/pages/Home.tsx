@@ -11,13 +11,12 @@ const Home: React.FC = () => {
   const openPage = async (myurl:any) => {
     await AppLauncher.openUrl({ url: myurl });
   };
-  checkCanOpenUrl('com.google.android.apps.translate')
-  checkCanOpenUrl('com.naver.labs.translator')
   return (
     <IonPage>
       <IonContent fullscreen>
         <IonButton onClick={() => openPage('com.google.android.apps.translate')}>Google Translate</IonButton>
         <IonButton onClick={() => openPage('com.naver.labs.translator')}>Papago</IonButton>
+        <IonButton onClick={() => openPage('com.cyanogenmod.trebuchet')}>Home</IonButton>
       </IonContent>
     </IonPage>
   );
